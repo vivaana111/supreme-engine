@@ -1,0 +1,41 @@
+body
+{
+background-position: center;
+background-size: cover;
+}
+
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status
+{
+font-size: 18px;
+}
+
+canvas
+{
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow :1px 1px 38px rgb(175, 255, 244) ;}
+    to{box-shadow :1px 1px 38px rgb(207, 131, 245);}
+}
+a
+{
+  float:right;
+  font-size: 20px !important;
+  margin: 5px;
+  background: black;
+  cursor: pointer;
+  color: white;
+}
+a:hover
+{
+  color:red !important;
+}
